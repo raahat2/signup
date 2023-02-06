@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>SignUp</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="reg" class="signup">
+        <div class="input">
+          <h1 class="pageHeading">SIGN UP</h1>
+          <div class="name">
+            <h4 class="lable">Name</h4>
+            <input type="input" id="name" class="inputText" />
+            <p class="nameError" id="nameError"></p>
+          </div>
+          <div class="email">
+            <h4 class="lable">Email</h4>
+            <input type="input" id="email" class="inputText" />
+            <p class="emailError" id="emailError"></p>
+          </div>
+          <div class="password">
+            <h4 class="lable">Password</h4>
+            <input type="password" id="password" class="inputText" />
+            <p class="passwordError" id="passwordError"></p>
+          </div>
+
+          <div class="btn">
+            <button type="button" class="submit" onclick="store()">
+              SIGN UP
+            </button>
+          </div>
+          <div class="or">
+            <div class="border"></div>
+            <div class="text1">OR</div>
+            <div class="border"></div>
+          </div>
+          <div class="icons">
+            <div class="google"><i class="fa-brands fa-google"></i></div>
+            <div class="facebook"><i class="fa-brands fa-facebook-f"></i></div>
+            <div class="linkedIn"><i class="fa-brands fa-linkedin-in"></i></div>
+          </div>
+          <div class="alreadyAUser">
+            <p class="loginLink">Already a user? <a href="#">LOGIN</a></p>
+          </div>
+        </div>
+      </div>
+      <div id="next" class="nextPage">
+        <h2>Name</h2>
+        <input type="text" id="nameDisplay" />
+        <h2>Email</h2>
+        <input type="text" id="emailDisplay" />
+        <h2>Password</h2>
+        <input type="text" id="passwordDisplay" />
+        <button type="button" class="logOut" id="logOut" onclick="logOut()">
+          Log Out
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="/js/jjs.js"></script>
+</html>

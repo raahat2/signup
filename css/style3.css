@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    min-height: 100%;
+    background-color: #6D9AC4;
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+   
+}
+.container{
+   width:400px;
+   padding: 30px;
+  
+    
+    
+    
+}
+.signup {
+   
+    
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 2px 2px 2px #55789A;
+    
+    
+}
+.pageHeading{
+    font-size: 15px;
+    
+    color: #484848;
+    
+   
+ 
+    padding-top: 5px;
+}
+.input{
+    width:90%;
+   text-align: center;
+   padding: 20px;
+}
+.lable{
+    font-size: 15px;
+    margin: 0;
+    margin-top:20px;
+    font-weight: 520;
+    text-align: left;
+    margin-bottom:5px;
+    color: #484848;
+    
+}
+ .inputText{
+    width:100%;
+    padding:10px;
+    border-radius: 4px;
+    background: transparent;
+    border: 1px solid #C9C9C9;
+  
+}
+.email .emailError{
+    font-size: 11px;
+    text-align: left;
+    margin-top: 0px;
+}
+.password .passwordError{
+    font-size: 11px;
+    text-align: left;
+    margin-top: 0px;
+}
+.name .nameError{
+    font-size: 11px;
+    text-align: left;
+    margin-top: 0px;
+}
+.password{
+    margin-bottom: 25px;
+}
+
+
+.btn .submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #EE5684;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    box-shadow: 1px 1px 1px #bbbbbb;
+}
+.icons{
+    
+display: flex;
+justify-content: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+
+
+   
+ 
+}
+.google {
+    padding: 5px;
+    border: 2px solid #D31313;
+    border-radius: 50%;
+    color: #D31313;
+    width: 32px;
+    height: 33px;
+    font-size: 18px;
+}
+.facebook{
+    padding:5px;
+margin-left: 15px;
+    border: 2px solid #4E67A5;
+    border-radius: 50%;
+    width: 32px;
+    height: 33px;
+    color:#4E67A5;
+   
+    font-size: 18px;
+}
+.linkedIn{
+    padding:5px;
+    margin-left: 15px;
+    border: 2px solid#2866BC;
+    border-radius: 50%;
+    width: 32px;
+    height: 33px;
+    color:#2866BC;
+    font-size: 18px;
+}
+.loginLink{
+    margin-top: 0;
+}
+.loginLink a{
+    color: #484848;
+}
+.alreadyAUser{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+.alreadyAUser a{
+    font-weight: 600;
+}
+.nextPage{
+    background-color: white;
+    display: none;
+ 
+    padding:30px;
+    border-radius: 5px;
+    
+}
+.nextPage h2{
+    color:#484848;
+    padding:10px;
+    font-size: 20px;
+
+}
+.nextPage input{
+    width: 100%;
+    color:#484848;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding:10px;
+    
+}
+.nextPage .logOut{
+    width: 100%;
+    padding: 10px;
+    background-color: #EE5684;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    box-shadow: 1px 1px 1px #bbbbbb;
+    margin-top:30px;
+}
+.or{
+    display:flex;
+    justify-content: space-between;
+    align-items: space-between;
+    margin-top: 20px;
+}
+.border{
+    width:50%;
+    border-bottom: 1px solid #969494;
+margin-bottom:10px;
+}
+
+.text1 {
+    color: #969494;
+    border: 1px solid #BBBBBB;
+    border-radius: 18%;
+    font-size: 13px;
+    text-align: center;
+    
+    padding: 3px;
+}
